@@ -5,3 +5,11 @@ bower_components
 node_modules
 npm-debug.log
 vendor
+.htaccess
+wp-config.php
+wp-content/uploads/
+sitemap.xml
+*.log
+sitemap.xml
+sitemap.xml.gz
+.DS_Store
