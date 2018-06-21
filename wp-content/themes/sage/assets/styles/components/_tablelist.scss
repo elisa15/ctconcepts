@@ -1,0 +1,29 @@
+.tablepress {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    margin-bottom: 1em;
+    border: none;
+    display: inline-block;
+    overflow: hidden;
+    tr {
+      opacity: 0;
+      filter: alpha(opacity = 0);
+      -moz-opacity: 0.0;
+      -khtml-opacity: 0.0;
+      -webkit-transition: all 1200ms ease-out;
+      -moz-transition: all 1200ms ease-out;
+      -o-transition: all 1200ms ease-out;
+      transition: all 1200ms ease-out;
+      &.visible {
+        opacity: 1;
+      }
+    }
+    tbody td {
+      border: none;
+      padding: 0 40px 0 0 !important;
+      white-space: pre-line;
+      font-family: 'Fakt Pro';
+      font-size: 15px;
+    }
+  }

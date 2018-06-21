@@ -1,0 +1,151 @@
+@font-face {
+	font-family: 'Fakt Pro Hair';
+	src: url('../../assets/fonts/FaktPro-Hair.eot');
+	src: url('../../assets/fonts/FaktPro-Hair.eot?#iefix') format('embedded-opentype'),
+		url('../../assets/fonts/FaktPro-Hair.woff') format('woff'),
+		url('../../assets/fonts/FaktPro-Hair.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Fakt Pro Blond';
+	src: url('../../assets/fonts/FaktPro-Blond.eot');
+	src: url('../../assets/fonts/FaktPro-Blond.eot?#iefix') format('embedded-opentype'),
+		url('../../assets/fonts/FaktPro-Blond.woff') format('woff'),
+		url('../../assets/fonts/FaktPro-Blond.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Fakt Pro';
+	src: url('../../assets/fonts/FaktPro-Light.eot');
+	src: url('../../assets/fonts/FaktPro-Light.eot?#iefix') format('embedded-opentype'),
+		url('../../assets/fonts/FaktPro-Light.woff') format('woff'),
+		url('../../assets/fonts/FaktPro-Light.ttf') format('truetype');
+	font-weight: 300;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Fakt Pro Normal';
+	src: url('../../assets/fonts/FaktPro-Normal.eot');
+	src: url('../../assets/fonts/FaktPro-Normal.eot?#iefix') format('embedded-opentype'),
+		url('../../assets/fonts/FaktPro-Normal.woff') format('woff'),
+		url('../../assets/fonts/FaktPro-Normal.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+#wpadminbar,.page-header,.brand{display: none}
+body{    padding: 55px;
+    &.logged-in.admin-bar{
+        margin: 0;
+        position: absolute;
+        top: 0;
+        width: 100%;
+        height: 100%;
+    }
+    .page{
+      
+    }
+    
+}
+html {
+    margin-top: 0px !important;
+}
+a{
+    color: #BAB1AD !important;
+}
+a:active, a:focus, a:hover {
+    text-decoration: none !important;
+    color: #000 !important;
+}
+
+p{
+    font-family: 'Fakt Pro';
+    font-weight: 300;
+    font-style: normal;
+    font-size: 15px !important;
+    line-height: 1.5em;
+    color: #333333;
+    letter-spacing: 0.3px;
+}
+.container {
+    max-width: 100%;
+}
+audio, canvas, img, video {
+    vertical-align: middle;
+}
+.main {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 100%;
+    flex: 100% !important;
+    max-width: 100% !important;
+    @media (min-width: 576px){
+        -ms-flex: 0 0 100%;
+        flex: 100%;
+        max-width: 100% !important;
+    }
+}
+.sidebar {
+    display:none !important;
+}
+section p{
+    opacity: 0;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    filter: alpha(opacity=0);
+    -moz-opacity: 0.0;
+    -khtml-opacity: 0.0;
+    -webkit-transition: all 1200ms ease-out;
+    -moz-transition: all 1200ms ease-out;
+    -o-transition: all 1200ms ease-out;
+    transition: all 1200ms ease-out;
+    &.visible{
+        opacity: 1;
+    }
+}
+
+.photorow {
+    display: -ms-flexbox; /* IE10 */
+    display: flex;
+    -ms-flex-wrap: wrap; /* IE10 */
+    flex-wrap: wrap;
+	padding: 0 0;
+	margin-bottom: 100px;
+}
+
+/* Create four equal columns that sits next to each other */
+.photocolumn {
+    -ms-flex: 12%; /* IE10 */
+    flex: 12%;
+    max-width: 20%;
+    padding: 0 0px;
+}
+
+.photocolumn img {
+    margin-top: 8px;
+	vertical-align: middle;
+	width: 100%;
+	height: auto;
+	padding-right: 22px;
+
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+    .photocolumn {
+        -ms-flex: 25%;
+        flex: 25%;
+        max-width: 25%;
+    }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+    .photocolumn {
+        -ms-flex: 25%;
+        flex: 25%;
+        max-width: 25%;
+    }
+}

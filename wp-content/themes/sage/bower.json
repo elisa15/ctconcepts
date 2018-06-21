@@ -1,0 +1,16 @@
+{
+  "name": "sage",
+  "homepage": "http://localhost/projects/mf2018/",
+  "authors": [
+    "Ben Word <ben@benword.com>"
+  ],
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "popper.js": "^1.12.3",
+    "slick-carousel": "^1.8.1"
+  },
+  "resolutions": {
+    "bootstrap": "^4.1.0"
+  }
+}
