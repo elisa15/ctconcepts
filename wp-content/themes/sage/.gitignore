@@ -58,7 +58,6 @@ wp-content/w3tc-config/
 ### SAGE ###
 # Include your project-specific ignores in this file
 # Read about how to use .gitignore: https://help.github.com/articles/ignoring-files
-wp-content/themes/*/dist
 wp-content/themes/*/bower_components
 wp-content/themes/*/node_modules
 wp-content/themes/*/npm-debug.log
